@@ -16,6 +16,9 @@
 		AD578A4A20F47CFA00EE0CAE /* MyCategariesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD578A4920F47CFA00EE0CAE /* MyCategariesTests.m */; };
 		AD578A5520F47CFA00EE0CAE /* MyCategariesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD578A5420F47CFA00EE0CAE /* MyCategariesUITests.m */; };
 		AD578A6820F47D5B00EE0CAE /* UIAlertController+Window.m in Sources */ = {isa = PBXBuildFile; fileRef = AD578A6720F47D5B00EE0CAE /* UIAlertController+Window.m */; };
+		AD578A6B20F47F1300EE0CAE /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = AD578A6A20F47F1300EE0CAE /* UIView+Frame.m */; };
+		AD578A6E20F47FA500EE0CAE /* UIColor+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = AD578A6D20F47FA500EE0CAE /* UIColor+Common.m */; };
+		AD578A7120F482B700EE0CAE /* UIApplication+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = AD578A7020F482B700EE0CAE /* UIApplication+Common.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +57,12 @@
 		AD578A5620F47CFA00EE0CAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD578A6620F47D5B00EE0CAE /* UIAlertController+Window.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+Window.h"; sourceTree = "<group>"; };
 		AD578A6720F47D5B00EE0CAE /* UIAlertController+Window.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+Window.m"; sourceTree = "<group>"; };
+		AD578A6920F47F1300EE0CAE /* UIView+Frame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		AD578A6A20F47F1300EE0CAE /* UIView+Frame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		AD578A6C20F47FA500EE0CAE /* UIColor+Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Common.h"; sourceTree = "<group>"; };
+		AD578A6D20F47FA500EE0CAE /* UIColor+Common.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Common.m"; sourceTree = "<group>"; };
+		AD578A6F20F482B600EE0CAE /* UIApplication+Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIApplication+Common.h"; sourceTree = "<group>"; };
+		AD578A7020F482B700EE0CAE /* UIApplication+Common.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+Common.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +150,12 @@
 			children = (
 				AD578A6620F47D5B00EE0CAE /* UIAlertController+Window.h */,
 				AD578A6720F47D5B00EE0CAE /* UIAlertController+Window.m */,
+				AD578A6920F47F1300EE0CAE /* UIView+Frame.h */,
+				AD578A6A20F47F1300EE0CAE /* UIView+Frame.m */,
+				AD578A6C20F47FA500EE0CAE /* UIColor+Common.h */,
+				AD578A6D20F47FA500EE0CAE /* UIColor+Common.m */,
+				AD578A6F20F482B600EE0CAE /* UIApplication+Common.h */,
+				AD578A7020F482B700EE0CAE /* UIApplication+Common.m */,
 			);
 			path = Categroies;
 			sourceTree = "<group>";
@@ -275,9 +290,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD578A7120F482B700EE0CAE /* UIApplication+Common.m in Sources */,
+				AD578A6E20F47FA500EE0CAE /* UIColor+Common.m in Sources */,
 				AD578A3520F47CF700EE0CAE /* ViewController.m in Sources */,
 				AD578A4020F47CF900EE0CAE /* main.m in Sources */,
 				AD578A6820F47D5B00EE0CAE /* UIAlertController+Window.m in Sources */,
+				AD578A6B20F47F1300EE0CAE /* UIView+Frame.m in Sources */,
 				AD578A3220F47CF700EE0CAE /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
