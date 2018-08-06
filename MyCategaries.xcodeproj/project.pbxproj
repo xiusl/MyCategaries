@@ -19,6 +19,7 @@
 		AD578A6B20F47F1300EE0CAE /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = AD578A6A20F47F1300EE0CAE /* UIView+Frame.m */; };
 		AD578A6E20F47FA500EE0CAE /* UIColor+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = AD578A6D20F47FA500EE0CAE /* UIColor+Common.m */; };
 		AD578A7120F482B700EE0CAE /* UIApplication+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = AD578A7020F482B700EE0CAE /* UIApplication+Common.m */; };
+		AD7DDD3921187EA9006CCC2B /* NSObject+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7DDD3821187EA9006CCC2B /* NSObject+Add.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,8 @@
 		AD578A6D20F47FA500EE0CAE /* UIColor+Common.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Common.m"; sourceTree = "<group>"; };
 		AD578A6F20F482B600EE0CAE /* UIApplication+Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIApplication+Common.h"; sourceTree = "<group>"; };
 		AD578A7020F482B700EE0CAE /* UIApplication+Common.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+Common.m"; sourceTree = "<group>"; };
+		AD7DDD3721187EA9006CCC2B /* NSObject+Add.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Add.h"; sourceTree = "<group>"; };
+		AD7DDD3821187EA9006CCC2B /* NSObject+Add.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Add.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +159,8 @@
 				AD578A6D20F47FA500EE0CAE /* UIColor+Common.m */,
 				AD578A6F20F482B600EE0CAE /* UIApplication+Common.h */,
 				AD578A7020F482B700EE0CAE /* UIApplication+Common.m */,
+				AD7DDD3721187EA9006CCC2B /* NSObject+Add.h */,
+				AD7DDD3821187EA9006CCC2B /* NSObject+Add.m */,
 			);
 			path = Categroies;
 			sourceTree = "<group>";
@@ -295,6 +300,7 @@
 				AD578A3520F47CF700EE0CAE /* ViewController.m in Sources */,
 				AD578A4020F47CF900EE0CAE /* main.m in Sources */,
 				AD578A6820F47D5B00EE0CAE /* UIAlertController+Window.m in Sources */,
+				AD7DDD3921187EA9006CCC2B /* NSObject+Add.m in Sources */,
 				AD578A6B20F47F1300EE0CAE /* UIView+Frame.m in Sources */,
 				AD578A3220F47CF700EE0CAE /* AppDelegate.m in Sources */,
 			);
